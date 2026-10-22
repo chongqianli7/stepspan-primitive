@@ -1,0 +1,95 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "assess": {
+      "params": [
+        [
+          "plan_id",
+          "string"
+        ],
+        [
+          "expected_revision",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_plan": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "plan_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_review": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "plan_id",
+          "string"
+        ],
+        [
+          "revision",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_revision": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "plan_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "seal": {
+      "params": [
+        [
+          "plan_id",
+          "string"
+        ],
+        [
+          "payload",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}

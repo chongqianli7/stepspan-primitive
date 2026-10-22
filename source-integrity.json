@@ -1,0 +1,5 @@
+{
+  "protocol": "stepspan-1",
+  "contract_file": "contracts/stepspan.py",
+  "sha256": "c42e2c5929f4cc48c2fedc8666f3c544db96b1e2c2422208a03bc94077e5fefc"
+}
