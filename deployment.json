@@ -1,0 +1,20 @@
+{
+  "protocol": "stepspan-1",
+  "chain_id": 61999,
+  "network": "Stable Studionet",
+  "rpc_url": "https://studio.genlayer.com/api",
+  "explorer_url": "https://explorer-studio.genlayer.com",
+  "contract_address": "0x961658AeeD87fEa6A46206BbA9B48d48Cf88C5b5",
+  "source_sha256": "c42e2c5929f4cc48c2fedc8666f3c544db96b1e2c2422208a03bc94077e5fefc",
+  "deployment_transaction": "0x8ad007679420720019d62bb5115344a6e39e8e6b91b4a49bdb1d23a04ab84e48",
+  "owner": "0x2e08f7d3a9465e9127e7ca375d40bec9ec4da7ba",
+  "plan_id": "grant-visitor-center",
+  "verified_records": [
+    {
+      "owner": "0x2e08f7d3a9465e9127e7ca375d40bec9ec4da7ba",
+      "plan_id": "grant-visitor-center",
+      "revision": 1,
+      "assessment_transaction": "0x9ec3fbea4d1286e31c5bb789a18567925b31df9385b7f9f85993cbc2e084e4c2"
+    }
+  ]
+}

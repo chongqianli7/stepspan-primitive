@@ -4,6 +4,8 @@ StepSpan converts published venue access information into evidence-bound decisio
 
 A page saying “a lift is available” does not prove that a visitor can reach it, exit it, or complete a visit. StepSpan preserves these gaps as UNKNOWN rather than turning a venue-wide statement into a positive route result.
 
+[Companion application](https://chongqianli7.github.io/stepspan-genlayer/) · [Application source](https://github.com/chongqianli7/stepspan-genlayer)
+
 ## Contract interface
 
 | Method | Purpose |
@@ -43,7 +45,7 @@ The suite exercises graph continuity, direction, alternate routes, stale revisio
 
 ## Deploy and use
 
-Import `contracts/stepspan.py` into GenLayer Studio, or deploy the exact bundled source from the companion application. Constructor arguments are empty. The app defaults to Stable Studionet, chain ID 61999, with normal full consensus (`leaderOnly: false`). No contract address or finalized transaction is included in this source package.
+Import `contracts/stepspan.py` into GenLayer Studio, or deploy the exact bundled source from the companion application. Constructor arguments are empty. The app defaults to Stable Studionet, chain ID 61999, with normal full consensus (`leaderOnly: false`). The canonical deployment is `0x961658AeeD87fEa6A46206BbA9B48d48Cf88C5b5`. `deployment.json` records its source digest and transaction references; `evidence/studionet.json` contains the finalized route record and consensus summaries.
 
 Call `seal` once with a new plan ID, await finality, then call `assess` with revision 0. Check successful finalized execution, majority agreement and public state readback. If a transaction fails or becomes undetermined, inspect the receipt before signing again. The implementation does not automatically retry writes or appeal.
 

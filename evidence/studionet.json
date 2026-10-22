@@ -1,0 +1,151 @@
+{
+  "protocol": "stepspan-1",
+  "network": "Stable Studionet",
+  "chain_id": 61999,
+  "contract_address": "0x961658AeeD87fEa6A46206BbA9B48d48Cf88C5b5",
+  "source_sha256": "c42e2c5929f4cc48c2fedc8666f3c544db96b1e2c2422208a03bc94077e5fefc",
+  "owner": "0x2e08f7d3a9465e9127e7ca375d40bec9ec4da7ba",
+  "plan_id": "grant-visitor-center",
+  "revision": 1,
+  "plan": {
+    "input": {
+      "edges": [
+        {
+          "from": "sidewalk",
+          "id": "E1",
+          "to": "visitor_center"
+        }
+      ],
+      "end": "visitor_center",
+      "nodes": [
+        {
+          "id": "sidewalk",
+          "label": "Riverside Drive sidewalk north of overlook pavilion"
+        },
+        {
+          "id": "visitor_center",
+          "label": "Visitor center entrance via ramp"
+        }
+      ],
+      "start": "sidewalk",
+      "url": "https://www.nps.gov/gegr/planyourvisit/accessibility.htm",
+      "venue": "General Grant National Memorial · visitor center"
+    },
+    "input_sha256": "b5f10385f1880415106b46205b59527b84cce2fbeb20127f0da71598b23b2972",
+    "protocol": "stepspan-1"
+  },
+  "review": {
+    "findings": {
+      "edges": [
+        {
+          "id": "E1",
+          "quote": "There is wheelchair access to the visitor center at General Grant National Memorial. The ramp begins just north of the overlook pavilion along the sidewalk on the southbound side of Riverside Drive.",
+          "state": "PASS"
+        }
+      ]
+    },
+    "input_sha256": "b5f10385f1880415106b46205b59527b84cce2fbeb20127f0da71598b23b2972",
+    "owner": "0x2e08f7d3a9465e9127e7ca375d40bec9ec4da7ba",
+    "plan_id": "grant-visitor-center",
+    "protocol": "stepspan-1",
+    "revision": 1,
+    "route": {
+      "candidate_path": [
+        "E1"
+      ],
+      "path": [
+        "E1"
+      ],
+      "status": "SUPPORTED",
+      "unknown_edges": []
+    },
+    "source": "An official website of the United States government Here's how you know Skip to global NPS navigation Skip to this park navigation Skip to the main content Skip to this park information section Skip to the footer section National Park Service Search Open Menu General Grant National Memorial Info Alerts Maps Calendar Fees Accessibility There is wheelchair access to the visitor center at General Grant National Memorial. The ramp begins just north of the overlook pavilion along the sidewalk on the southbound side of Riverside Drive. However, the mausoleum is not wheelchair accessible. There are 25 paved steps leading to the entrance of the mausoleum and 20 marble steps inside leading downstairs into the crypt. Last updated: May 30, 2025 Was this page helpful? Yes No An official form of the United States government. Provided by Touchpoints Park footer CONTACT INFO Mailing Address: 26 Wall Street C/O General Grant National Memorial New York, NY 10005 Phone: (646) 670-7251 Contact Us TOOLS FAQ Site Index Español STAY CONNECTED This Site All NPS Experience Your America. Download the NPS app to navigate the parks on the go. Accessibility Privacy Policy FOIA Notices Contact General Grant National Memorial NPS FAQ No Fear Act Disclaimer Vulnerability Disclosure Policy USA.gov Office of Civil Rights Looking for U.S. government information and services? Visit USA.gov",
+    "source_sha256": "bb3ec8759c834d4a2582caa2ec563ed4a630c84147252ac67e4d277e0c8e5a92"
+  },
+  "transactions": [
+    {
+      "method": "deploy",
+      "hash": "0x8ad007679420720019d62bb5115344a6e39e8e6b91b4a49bdb1d23a04ab84e48",
+      "status": "FINALIZED",
+      "result": 6,
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "votes": {
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "idle",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "idle"
+      },
+      "leader_receipts": [
+        {
+          "mode": "leader",
+          "execution_result": "SUCCESS",
+          "error": null
+        },
+        {
+          "mode": "validator",
+          "execution_result": "SUCCESS",
+          "error": null
+        }
+      ],
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x8ad007679420720019d62bb5115344a6e39e8e6b91b4a49bdb1d23a04ab84e48"
+    },
+    {
+      "method": "seal",
+      "hash": "0x105bf08a1e04b1182dc20fa9551105ee17b67f6f6943f569e4b81b5420bf4c39",
+      "status": "FINALIZED",
+      "result": 6,
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "votes": {
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      },
+      "leader_receipts": [
+        {
+          "mode": "leader",
+          "execution_result": "SUCCESS",
+          "error": null
+        },
+        {
+          "mode": "validator",
+          "execution_result": "SUCCESS",
+          "error": null
+        }
+      ],
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x105bf08a1e04b1182dc20fa9551105ee17b67f6f6943f569e4b81b5420bf4c39"
+    },
+    {
+      "method": "assess",
+      "hash": "0x9ec3fbea4d1286e31c5bb789a18567925b31df9385b7f9f85993cbc2e084e4c2",
+      "status": "FINALIZED",
+      "result": 6,
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "votes": {
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "disagree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "disagree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+      },
+      "leader_receipts": [
+        {
+          "mode": "leader",
+          "execution_result": "SUCCESS",
+          "error": null
+        },
+        {
+          "mode": "validator",
+          "execution_result": "SUCCESS",
+          "error": null
+        }
+      ],
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x9ec3fbea4d1286e31c5bb789a18567925b31df9385b7f9f85993cbc2e084e4c2"
+    }
+  ]
+}
